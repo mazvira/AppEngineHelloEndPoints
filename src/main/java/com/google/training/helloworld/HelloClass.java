@@ -13,4 +13,8 @@ public class HelloClass {
     public String getMessage() {
         return message;
     }
+    
+    public HelloClass (String name, String period) {
+        this.message =  "Good " + period + " "+ name + "!";
+    }
 }
